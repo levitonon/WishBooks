@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.11.0"
+  },
+  "name": "aulasdw-main",
+  "description": "[Link on Render.com](https://aulasdw.onrender.com/)",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "dev": "nodemon app.js",
+    "build": "node db/build.js",
+    "start": "node app.js"
+  },
+  "author": "Levi",
+  "license": "ISC"
+}
